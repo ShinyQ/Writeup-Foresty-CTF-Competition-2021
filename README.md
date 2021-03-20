@@ -22,6 +22,8 @@ Dari clue tersebut maka kita lakukan decode ke rot-5 sehingga flag pun didapatka
 
 Flag : `forestyCTF{puT3rpUt3rS3mp3sukSes}`
 
+<br>
+
 ### **Ngapain?**
 
 Diberikan sebuah kode file .class, jika kita telusuri lebih dalam kita bisa mendapatkan file ngapain.java kemudian dapat terlihat prosedur checkPassword dengan menyusun kata pada prosedur tersebut maka didapatkan flagnya.
@@ -29,6 +31,8 @@ Diberikan sebuah kode file .class, jika kita telusuri lebih dalam kita bisa mend
 ![Static File ASCII](https://i.ibb.co/hf4jRxB/Picture4.png)
 
 Flag : `forestyCTF{st0PdO1N6s03THiNGSTuPIdr5_9gudLc}`
+
+<br>
 
 ### **Kopi Java**
 
@@ -39,6 +43,8 @@ Diberikan kelas java, lakukan decompile .class kemudian modifikasi code (karena 
 <img src="https://i.ibb.co/5G1xPsC/Picture6.png" width="400">
 
 Flag : `forestyCTF{7hr33_b1ll10n_d3v1c35}`
+
+<br>
 
 ### **Coded Packer**
 
@@ -58,7 +64,6 @@ Dengan merubah hexadecimal tersebut dan mencari nilai asciinya maka didapatkan k
 
 Flag : `forestyCTF{Am4nD3ng4nP4ck3r}`
 
-
 <br>
 
 ## **Steganography**
@@ -71,6 +76,8 @@ Diberikan sebuah gambar, dengan menggunakan command strings didapaptkan flagnya.
 
 Flag : `forestyCTF{7307249168494-82898ghhsifgadvmgk}`
 
+<br>
+
 ### **Uncompiled Citra**
 
 Diberikan sebuah file txt berisi kumpulan file hexadecimal, dengan menggunakan konverter decimal ke image online didapatkan gambar dengan isi flagnya.
@@ -78,6 +85,8 @@ Diberikan sebuah file txt berisi kumpulan file hexadecimal, dengan menggunakan k
 ![Static File ASCII](https://i.ibb.co/myJ607s/Picture13.png)
 
 Flag : `forestyCTF{thepuzzlesquare}`
+
+<br>
 
 ### **Spy Cat**
 
@@ -87,6 +96,8 @@ Diberikan sebuah gambar kucing, dengan menggunakan binwalk maka kita dapat menda
 
 Flag : `forestyCTF{NYAN_SPY342i}`
 
+<br>
+
 ### **My Lost Word**
 
 Diberikan sebuah file txt dengan nama Our_memory. Lakukan Hexdump pada file Our_memory.txt. Kemudian ubah 20 menjadi 0 dan 1d dengan 1. Lakukan konversi ke ascii untuk mendapatkan flag.
@@ -95,6 +106,8 @@ Diberikan sebuah file txt dengan nama Our_memory. Lakukan Hexdump pada file Our_
 
 Flag : `forestyCTF{SemangatMembaraDalamPerjuangan}`
 
+<br>
+
 ### **Author’s Message**
 
 Diberikan sebuah pdf, ubah file tersebut menjadi html dan buka file html tersebut. Dengan melakukan inspeksi elemen web didapatkan link drive yang menunjukkan flag yang masih di encode. Dari "=" dibelakang kode dapat diketahui bahwa kode tersebut merupakan base64, lakukan decode dan didapatkan flagnya.
@@ -102,6 +115,8 @@ Diberikan sebuah pdf, ubah file tersebut menjadi html dan buka file html tersebu
 <img src="https://i.ibb.co/QX6DqfS/Picture16.png" width="500">
 
 Flag : `forestyCTF{sayaSuKam4k4nP3rMen}`
+
+<br>
 
 ### **The Bit Hack**
 
@@ -123,6 +138,8 @@ Diberikan sebuah code dengan berakhiran "=", diketahui kode tersebut adalah form
 
 Flag : `forestyCTF{EzPzBase64hehe}`
 
+<br>
+
 ### **Struggle Ways**
 
 Deskripsi soal dapat memenuhi untuk format flag (forestyCTF{}), sehingga jika di logikakan kita hanya tinggal melakukan pergeseran, selanjutnya dilakukan pergeseran sebanyak 9 key menggunakan metode Decode Rail Fence Cipher sehingga didapatkan flagnya.
@@ -130,6 +147,8 @@ Deskripsi soal dapat memenuhi untuk format flag (forestyCTF{}), sehingga jika di
 ![Static File ASCII](https://i.ibb.co/DwRqFd4/Picture19.png)
 
 Flag : `forestyCTF{ziggy_Z4ggy_horay_528}`
+
+<br>
 
 ### **From The Last Temple**
 
@@ -143,6 +162,8 @@ Lakukan decode menggunakan clue pada soal yaitu cipher malespin sehingga didapat
 
 Flag : `forestyCTF{FINDTHEKEYTOOPENTHESARGERAS}`
 
+<br>
+
 ### **Temple Box**
 
 Diberikan clue untuk melakukan convert kode dari haxjslaKVJ{481750mtsm38kanwk93927} menjadi ROT 5 sehingga didapatkan mfcoxqfPAO{481750ryxr38pfsbp93927}. Dengan clue yang diberikan soal lakukan decode menggunakan beaufort cipher dengan kamus bahasa perancis sehingga didapatkan flagnya.
@@ -150,6 +171,8 @@ Diberikan clue untuk melakukan convert kode dari haxjslaKVJ{481750mtsm38kanwk939
 ![Static File ASCII](https://i.ibb.co/LgTsqv7/Picture22.png)
 
 Flag : `forestyCTF{481750brmm38cobra93927}`
+
+<br>
 
 ### **Locked Room**
 
@@ -162,6 +185,8 @@ ketika di ekstrak di dapatkan file The_Room.pdf. Kemudian dari file pdf tersebut
 <img src="https://i.ibb.co/jy5bzKT/Picture24.png" width="500">
 
 Flag : `forestyCTF{kau_Berhasil_membuka_pintunya}`
+
+<br>
 
 ### **Fill the box with the Hope**
 
@@ -183,6 +208,8 @@ Lakukan inspect element html pada website <http://54.157.128.152:9300/>. Susun d
 
 Flag : `forestyCTF{0v33R_th1nkIng_m@y_k1lL_U}`
 
+<br>
+
 ### **Kue Chocochips**
 
 Karena pada clue gambar terdapat cookies, maka kami melakukan inspect cookies pada halaman <http://54.157.128.152:9400/> sehingga didapatkan flagnya.
@@ -190,6 +217,8 @@ Karena pada clue gambar terdapat cookies, maka kami melakukan inspect cookies pa
 ![Static File ASCII](https://i.ibb.co/mFwYVCn/Picture27.png)
 
 Flag : `forestyCTF{c00kiEs_1s_Imp0rt@n7}`
+
+<br>
 
 ### **Dagang Murah**
 
@@ -211,6 +240,8 @@ Diberikan link Join discord forestyCTF, masuk ke discord kemudian lihat pada bag
 
 Flag : `forestyCTF{4syqu3e_1y3uhh}`
 
+<br>
+
 ### **Format Flag**
 
 Pada soal, klik hint, kemudian didapatkan flag
@@ -219,6 +250,8 @@ Pada soal, klik hint, kemudian didapatkan flag
 
 Flag : `forestyCTF{ctf_assyiik}`
 
+<br>
+
 ### **Check Your Whatsapp**
 
 Pada grup ketua lomba ctf Lihat nama grup dari forestyCTF sehingga didapatkan flagnya
@@ -226,6 +259,8 @@ Pada grup ketua lomba ctf Lihat nama grup dari forestyCTF sehingga didapatkan fl
 ![Static File ASCII](https://i.ibb.co/YjWmCnd/Picture37.png)
 
 Flag : `forestyCTF{Grup_CTF}`
+
+<br>
 
 ### **Trap**
 
