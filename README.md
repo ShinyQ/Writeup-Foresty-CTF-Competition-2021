@@ -1,4 +1,4 @@
-# Foresty CTF Competition 2021 Writeup
+# Foresty CTF Competition 2021 Writeup 👨‍💻
 
 - Position    : `1st Place`
 - Team        : [Kurniadi Ahmad Wijaya](https://github.com/ShinyQ), [Muhammad Ilham Mubarak](https://github.com/milhamm), [Hanvito Michael Lee](https://github.com/vitomichael)  
